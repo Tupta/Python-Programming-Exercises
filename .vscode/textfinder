@@ -1,0 +1,24 @@
+import re
+# batRegex = re.compile(r'ko')
+# mo = batRegex.findall('''GRA W ¿YCIE CONWAYA TO SYMULACJA AUTOMATU KOMÓRKOWEGO,KTÓRY OPIERA SI NA PROSTYCH ZASADACH, BY TWORZYm CIEKAWEWZORY. ZOSTAA WYMY¥LONA PRZEZ MATEMATYKA JOHNA CONWAYAw 1970 roku, a spopularyzowaï jÈ Martin Gardner na ïamach czasopisma
+# „Scientific American”, w prowadzonej przez siebie rubryce poĂwiÚconej
+# grom matematycznym. Dzisiaj jest bardzo lubiana przez programistów i informatyków, jednak jest raczej ciekawÈ wizualizacjÈ niĝ prawdziwÈ grÈ. Na dwuwymiarowej planszy znajduje siÚ siatka komórek, a kaĝda z nich kieruje siÚ trzema prostymi zasadami:
+#  ¿yjÈce komórki z dwoma lub trzema sÈsiadami pozostajÈ przy ĝyciu
+# w kolejnym kroku symulacji.
+#  Martwe komórki z dokïadnie trzema sÈsiadami oĝywajÈ w kolejnym kroku
+# symulacji. Pozostaïe komórki umierajÈ lub pozostajÈ martwe w kolejnym krokusymulacji. Czy komórka bÚdzie ĝywa, czy martwa w kolejnym kroku symulacji caïkowicie zaleĝy od jej aktualnego stanu. Komórki nie pamiÚtajÈ wczeĂniejszych stanów.
+# Prowadzone sÈ badania zwiÈzane ze wzorami tworzonymi przez te proste zasady. Profesor Conway zmarï z powodu komplikacji po koronawirusie w kwietniu 2020 roku. WiÚcej informacji na temat jego gry w ĝyc''')
+
+# print(mo)
+# print (len(mo))
+
+
+# import re
+
+# haRegex = re.compile(r'(Ha){3}')
+# mo1 = haRegex.search('HaHaHa')
+# mo1.group()
+
+xmasRegex = re.compile(r'\d+\s\w+')
+d = xmasRegex.findall('12 drummers, 11 pipers, 10 lords, 9 ladies, 8 maids, 7 swans, 6 geese, 5 rings, 4 birds, 3 hens, 2 doves, 1 partridge')
+print(d)

@@ -1,0 +1,7 @@
+x = input("podaj dolny zakres liczby")
+y = input("podaj górny zakres liczby")
+skok = input ("podaj skok liczby")
+
+for i in range(x, y, skok):
+    print(i)
+

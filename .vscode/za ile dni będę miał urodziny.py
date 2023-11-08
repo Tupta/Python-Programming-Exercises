@@ -1,0 +1,10 @@
+# za ile dni będę miał urodziny
+print ("Ten program powie ci za ile dni będziesz miał urodziny")
+print ("podaj dzień swoich urodzin:")
+birthday = input()
+print("podaj miesiąc swoich urodzin")
+# birthmonth = input()
+# print("podaj rok swoich urodzin")
+# birthyear = input()
+# print ("twoja data urodzin to:")
+# print(birthday + "." + birthmonth + "." + birthyear + "." )

@@ -1,0 +1,35 @@
+# Wykrywanie silnego hasła
+# Utwórz funkcję używającą wyrażeń regularnych w celu
+# zagwarantowania, że ciąg tekstowy przedstawia silne hasło.
+# O haśle można powiedzieć, że jest silne, jeśli składa się z
+# przynajmniej ośmiu znaków, zawiera zarówno małe, jak i
+# duże litery i choć jedną cyfrę. Być może będziesz musiał
+# przetestować ciąg tekstowy za pomocą kilku wyrażeń
+# regularnych, aby sprawdzić jego siłę.
+
+#! python3
+import re
+
+print('Ten program sprawdzi jak silnejest twoje hasło')
+print("wprowadź hasło które będzie miało co najmniej 8 znaków w tym małe, jak i nduże litery i choć jedną cyfrę ")
+haslo = input()
+
+if len(haslo) < 8:
+    print('twoje hasło jest za krótkie')
+    breakpoint
+    print("twoje hasło jest za krótkie.")
+
+print ("twoje hasło to: " + haslo)
+# x=len(haslo)
+# print(x)
+test = re.compile(r'''(.{8}.[a-z]+[A-Z]+[0-9])''')   #po r' można wrzucić [a-z]+[A-Z]+[0-9,]
+#wyniktestu=test.search(haslo)
+#print("znaleziono cos takiego" + str(wyniktestu))
+
+if test.search(haslo):
+    print("mocne")
+else:
+    print("Słabe hasło")
+
+
+
