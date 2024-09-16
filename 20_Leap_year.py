@@ -18,7 +18,7 @@ def isLeapYear(year):
     else:
         return False
     
-#Asseration
+# Assertion
 assert isLeapYear(1999) == False
 assert isLeapYear(2000) == True
 assert isLeapYear(2001) == False
