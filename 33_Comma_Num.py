@@ -8,6 +8,7 @@
 # number part.
 
 def commaFormat(number):
+
     # Convert number to string for manipulation
     num_str = str(number)
 
@@ -50,4 +51,4 @@ assert commaFormat(100000) == '100,000'
 assert commaFormat(1000000) == '1,000,000'
 assert commaFormat(1234567890) == '1,234,567,890'
 assert commaFormat(1000.123456) == '1,000.123456'
-print('all tests passed')
+print('all tests passed, serio serio :)')
