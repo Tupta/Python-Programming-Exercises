@@ -1,7 +1,7 @@
 #!python
 
 #This program  displays the time for every 15 minute interval 
-#from 12:00 am to 11:45 pm.
+#from 12:00 am to 11:45 pm. Nothing special, another exercise
 
 # Loop over am and pm:
 for meridiem in ['am', 'pm']:
@@ -11,3 +11,5 @@ for meridiem in ['am', 'pm']:
         for minutes in ['00', '15', '30', '45']:
             # Print the time:
             print(hour + ':' + minutes + ' ' + meridiem)
+            
+#and thats the end.
